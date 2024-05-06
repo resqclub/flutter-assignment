@@ -32,7 +32,7 @@ Our partner app has a view that helps partners track the incoming orders. When c
  - Open -> not picked up by the customer
  - Closed -> picked up by the customer
 
-![Orders](./assets/orders.png "Orders")
+![Orders](./assets/orders.PNG "Orders")
 
 Partners have expressed that it is difficult to find multiple orders placed by the same customer when there is a long list of orders and customers have place multiple orders throughout the day. Check `assets/orders-video.mov`
 
