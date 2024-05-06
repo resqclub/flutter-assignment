@@ -1,6 +1,6 @@
 # app
 
-A new Flutter project.
+ResQ Flutter assignment. Check the README in the repo's root folder for more instructions. 
 
 ## Getting Started
 
