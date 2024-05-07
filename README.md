@@ -9,7 +9,7 @@ In either case, you can submit your code by sharing access to a git repo. We wil
 
 # 1. Providing a sample
 
-You can send us any mobile code you have available, written by yourself. This could be for an iOS or Android app, or cross-platform code. This should be a significant sample of code and e.g. not just the implementation for a tutorial. As a guideline, if it's less than 1000 lines of code then it's probably not suitable.
+You can send us any Flutter code you have available, written by yourself. This should be a significant sample of code and e.g. not just the implementation for a tutorial. As a guideline, if it's less than 1000 lines of code then it's probably not suitable.
 
 Along with your code, please provide some extra context for the sample. We'd like to know things like,
 
@@ -23,14 +23,14 @@ If you don't have any recent code that you'd like to share with us, you may inst
 
 You may indicate in your submission if there are things you didn't have time for, or would change if you had more time. Any extra notes on your thought process, plans or challenges are welcome too.
 
+**Please try to submit the assignment within a week. Don’t hesitate to reach out and let us know if you need more time.**
 
 # Coding task
 
 ## Background - Partner orders
+Partners are the restaurants, flower shops and grocery stores putting items for sale on our marketplace. The partner app has a view that helps partners track the incoming orders. When customers visit the venue to fetch their orders the partners mark the orders as picked up. 
 
-Our partner app has a view that helps partners track the incoming orders. When customers visit the venue to fetch their orders the partners mark the orders as picked up. The UI are shown as:
- - Open -> not picked up by the customer
- - Closed -> picked up by the customer
+The UI has filters for open orders (not yet picked up by the customer) and closed orders (picked up).
 
 ![Orders](./assets/orders.PNG "Orders")
 
@@ -41,7 +41,7 @@ Please implement an improved version of the orders view with the requirements be
 
 ## Must-have
 1. The app works on web, Android and iOS.
-2. An orders list where orders from the same customers are grouped together.
+2. An orders list where orders from the same customers are grouped together (Check `assets/grouped-orders.PNG` for inspiration).
 2. Orders can be marked as picked up.
 3. Orders can be filtered by open/closed/all orders.
 
@@ -53,7 +53,9 @@ For the purpose of this assigment, we have created an overly-simplified version 
 
 It is up to you to design the UX and implementation in whatever way you see fit to fulfil these requirements. Feel free to change and refactor as much or as little of the codebase as you like. 
 
-We are not necessarily expecting you to write perfect code as time is very limited for this assignment, but be ready to discuss your choices and what you might have done with more time. **We expect you to work only on the Flutter part of this repo.**
+We are not necessarily expecting you to write perfect code as time is very limited for this assignment, but be ready to discuss your choices and what you might have done with more time. 
+
+**We expect you to work only on the Flutter part of this repo. Any backend modifications are extra/nice-to-have**
 
 # Technical details
 
