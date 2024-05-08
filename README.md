@@ -73,7 +73,7 @@ For the purpose of this assignment this repo contains the app's frontend and bac
 1. Run the app `flutter run`
 
 ## Submitting the task
-Please clone this repo and create a new git branch with your changes. Ideally you will create a private repo on GitHub and give [@resq-bot](https://github.com/resq-bot) sufficient permissions to view. Again ideally, you would raise a PR from your branch to `main` as if this were a real piece of work. If, for some reason, you cannot submit your changes in the ideal way, please discuss with us.
+Please clone this repo and create a new git branch with your changes. Ideally you will create a **private repo on GitHub** and give [@resq-bot](https://github.com/resq-bot) sufficient permissions to view. Again ideally, you would raise a PR from your branch to `main` as if this were a real piece of work. If, for some reason, you cannot submit your changes in the ideal way, please discuss with us.
 
 In reality, we always favour small PRs reviewed and merged quickly, but for this assignment it is okay to make a larger PR with more changes that you would normally include at once.
 
