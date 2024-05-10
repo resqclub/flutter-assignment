@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import { getOrders, updateOrder } from './orders';
+import { getOrders, updateOrder } from './src/orders';
 
 const app = express();
 const port = 3000;
