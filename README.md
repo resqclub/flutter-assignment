@@ -51,7 +51,9 @@ Please implement an improved version of the orders view with the requirements be
 
 For the purpose of this assigment, we have created an overly-simplified version of the backend. Be warned, the product may have poor design decisions.
 
-It is up to you to design the UX and implementation in whatever way you see fit to fulfil these requirements. Feel free to change and refactor as much or as little of the codebase as you like. 
+**You do not need to match the exact design shown in the videos and images in `assets`**. The intention is to show how the current app works, and how it could look like after the UI changes (wireframe with grouped orders by customer).
+
+It is up to you to design the UX and implementation in whatever way you see fit to fulfil the requirements listed above. **Feel free to change and refactor as much or as little of the codebase as you like.** 
 
 We are not necessarily expecting you to write perfect code as time is very limited for this assignment, but be ready to discuss your choices and what you might have done with more time. 
 
