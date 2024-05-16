@@ -13,6 +13,9 @@ class GetOrdersRepositoryImpl extends GetOrderInterface {
         'http://${(kIsWeb || Platform.isIOS) ? 'localhost' : '10.0.2.2'}:3000/orders'));
     if (response.statusCode == 200) {
       final data = jsonDecode(response.body);
+
+      // It is advisable to do this grouping heavy lifting on server side and then send the grouped data to client
+      // since this is a flutter assignment the grouping was coded here else I prefer to do it on backend side
       Map<String, List<Map<String, dynamic>>> groupedOrders = {};
 
       // Group orders by email which is unique to users
