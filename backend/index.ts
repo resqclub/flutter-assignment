@@ -1,12 +1,12 @@
 import express from 'express';
-import cors from 'cors';
+// import cors from 'cors';
 import bodyParser from 'body-parser';
 import { getOrders, updateOrder } from './src/orders';
 
 const app = express();
 const port = 3000;
 
-app.use(cors());
+// app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/orders', (req, res) => {

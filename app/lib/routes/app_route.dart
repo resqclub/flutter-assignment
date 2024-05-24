@@ -1,4 +1,4 @@
-import 'package:app/features/order_list/presentation/providers/order_list_tabview.dart';
+import 'package:app/features/order_list/presentation/widgets/order_list_tabview.dart';
 import 'package:app/shared/commons/presentation/home_page.dart';
 import 'package:go_router/go_router.dart';
 

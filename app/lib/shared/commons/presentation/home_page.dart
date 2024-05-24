@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'dart:async';
-import 'package:app/features/order_list/presentation/providers/order_list_tabview.dart';
+import 'package:app/features/order_list/presentation/widgets/order_list_tabview.dart';
 import 'package:app/shared/commons/widget/appbar_title.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -28,25 +28,25 @@ class _HomePageState extends State<HomePage> {
 
   void _onItemTapped(int index) => setState(() => _selectedIndex = index);
 
-  @override
+  // @override
   // void initState() {
   //   super.initState();
   //   Timer.periodic(Duration(seconds: 1), (Timer t) => getOrders());
   //   ;
   // }
 
-  void getOrders() async {
-    final response = await http.get(Uri.parse('http://localhost:3000/orders'));
-    if (response.statusCode == 200) {
-      final data = jsonDecode(response.body);
-      // setState(() {
-      //   _orderCount = data.length;
-      // });
-    } else {
-      debugPrint(
-          'Could not fetch the orders. Make sure that the backend is running');
-    }
-  }
+  // void getOrders() async {
+  //   final response = await http.get(Uri.parse('http://localhost:3000/orders'));
+  //   if (response.statusCode == 200) {
+  //     final data = jsonDecode(response.body);
+  //     // setState(() {
+  //     //   _orderCount = data.length;
+  //     // });
+  //   } else {
+  //     debugPrint(
+  //         'Could not fetch the orders. Make sure that the backend is running');
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -57,16 +57,16 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
             icon: const Icon(Icons.chat_bubble_outlined),
-            onPressed: getOrders,
+            onPressed: () {},
           ),
         ],
-        bottom: TabBar(
-          tabs: [
-            Tab(text: 'Open'.toUpperCase()),
-            Tab(text: 'Closed'.toUpperCase()),
-            Tab(text: 'All'.toUpperCase()),
-          ],
-        ),
+        // bottom: TabBar(
+        //   tabs: [
+        //     Tab(text: 'Open'.toUpperCase()),
+        //     Tab(text: 'Closed'.toUpperCase()),
+        //     Tab(text: 'All'.toUpperCase()),
+        //   ],
+        // ),
       ),
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(

@@ -1,4 +1,4 @@
-import 'package:app/features/order_list/presentation/providers/order_count_provider.dart';
+import 'package:app/features/order_list/data/providers/order_count_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
